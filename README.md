@@ -27,7 +27,9 @@ Click **Restore** to revert the game files back to the originals from the `backu
 
 ## Updating after a game patch
 
-When the game updates, the included CSVs may become outdated. To regenerate them you need a copy of the **Global EN client** (Steam or Square Enix store version) and Python 3.
+When the game updates you will need to restore the game, then repatch. (You can either restore before the update, or after, doesn't seem to matter, ngl idk why xd).
+
+After multiple game updates, the included CSVs may become outdated. To regenerate them you need a copy of the **Global EN client** (Steam or Square Enix store version) and Python 3.
 
 Edit the paths at the top of `gen_english_csvs.py` to point to your Global EN SqPack folder (typically `FINAL FANTASY XIV Online\game\sqpack\ffxiv`) and the `resource/rawexd/` output folder next to the exe, then run:
 
